@@ -33,7 +33,7 @@ steps:
    
    echo "copiando contenido"
    mv ./.attachnents/* ./../web/static/.attachments
-   mv ./* ./web/content
+   mv ./* ./../web/content
    mkdir web
    mv ./../web/* ./web
    
